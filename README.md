@@ -1,54 +1,54 @@
-# Pokedex - First Generation
+# Pokédex - Primeira Geração
 
-A Pokedex application built with Next.js 15 and TypeScript showing all 150 first generation Pokemon.
+Uma aplicação de Pokédex construída com Next.js 15 e TypeScript mostrando todos os 150 Pokémon da primeira geração.
 
-## Features
+## Funcionalidades
 
-- View all 150 first generation Pokemon
-- Search by name
-- Filter by type
-- View detailed information for each Pokemon
-- Responsive design
-- SEO optimized with dynamic meta tags
+- Visualizar todos os 150 Pokémon da primeira geração
+- Buscar por nome
+- Filtrar por tipo
+- Ver informações detalhadas de cada Pokémon
+- Design responsivo
+- SEO otimizado com meta tags dinâmicas
 
-## Getting Started
+## Como Começar
 
-First, install the dependencies:
+Primeiro, instale as dependências:
 
 ```bash
 npm install
 ```
 
-Then, run the development server:
+Então, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-## Project Structure
+## Estrutura do Projeto
 
 ```
 src/
 ├── app/
-│   ├── page.tsx              # Home page with Pokemon list
+│   ├── page.tsx              # Página inicial com lista de Pokémon
 │   ├── search/
-│   │   └── page.tsx          # Search page with URL parameters
+│   │   └── page.tsx          # Página de busca com parâmetros URL
 │   └── pokemon/
 │       └── [id]/
-│           └── page.tsx      # Individual Pokemon page
+│           └── page.tsx      # Página individual do Pokémon
 ├── components/
-│   ├── ui/                   # UI components
+│   ├── ui/                   # Componentes de UI
 │   └── layout/               # Layout components
 ├── lib/
-│   ├── types.ts             # TypeScript types
-│   ├── utils.ts             # Utility functions
-│   └── pokemon-api.ts       # Data fetching functions
-└── hooks/                   # Custom React hooks
+│   ├── types.ts             # Tipos TypeScript
+│   ├── utils.ts             # Funções utilitárias
+│   └── pokemon-api.ts       # Funções de busca de dados
+└── hooks/                   # Hooks customizados do React
 ```
 
-## Technologies Used
+## Tecnologias Utilizadas
 
 - Next.js 15 (App Router)
 - TypeScript
